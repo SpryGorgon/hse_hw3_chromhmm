@@ -46,13 +46,17 @@
 ![image](https://user-images.githubusercontent.com/52814490/230119492-41296ea6-8800-412a-bc51-7ea7f0a886d5.png)
 
 ## Список запущенных команд:
-Бинаризация профилей из ChiP-seq кэспериментов:
+Бинаризация профилей из ChiP-seq экспериментов:
 
+```
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
+```
 
 Запуск ChromHMM
 
+```
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData ChromHMM_Results 10 hg19
+```
 
 ## Результат бонусного задания
 
