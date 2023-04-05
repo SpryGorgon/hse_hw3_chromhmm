@@ -1,4 +1,4 @@
-## Google Colab
+## Ноутбук
 
 Ноутбук в [репозитории](./ChromHMM_HW3.ipynb) и в [colab](https://colab.research.google.com/drive/1CbimSmyjv3D33OOGCvu7yfGZS7x5Oh3L?usp=sharing)
 
